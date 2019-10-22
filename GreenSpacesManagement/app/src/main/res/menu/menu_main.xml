@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.ListMaintenanceTasks">
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/button_settings_title"
+        android:icon="@mipmap/ic_menu"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/action_settings_fill"
+                android:title="@string/button_fill_title"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_settings_clean"
+                android:title="@string/button_clean_title"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+
+</menu>

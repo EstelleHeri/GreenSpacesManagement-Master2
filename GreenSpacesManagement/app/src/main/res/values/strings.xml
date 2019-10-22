@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">GreenSpacesManagement</string>
+
+    <string-array name="type_array">
+        <item>Arbre à tailler</item>
+        <item>Arbre à abattre</item>
+        <item>Détritus</item>
+        <item>Haie à tailler</item>
+        <item>Mauvaises herbes</item>
+        <item>Autres</item>
+    </string-array>
+
+    <string name="description_tree">Image arbres</string>
+    <string name="position_label">Position :</string>
+    <string name="lat_label">Lat.</string>
+    <string name="long_label">Long.</string>
+    <string name="hint_position">0</string>
+    <string name="localiser_button">Localiser</string>
+    <string name="adresse_label">Adresse :</string>
+    <string name="description_label">Description :</string>
+    <string name="hint_add_desc">(facultatif)</string>
+    <string name="submit">Valider</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="splash_app_title1">Green Spaces</string>
+    <string name="splash_app_title2">Management</string>
+    <string name="description_logo">Logo</string>
+
+    <string name="button_add_desc">Bouton ajouter</string>
+    <string name="button_add_title">Ajouter un</string>
+    <string name="button_add_title2">problème</string>
+
+    <string name="button_delete_title">Supprimer</string>
+    <string name="button_position_title">Position</string>
+    <string name="button_fill_title">Remplir BD</string>
+    <string name="button_clean_title">Vider BD</string>
+    <string name="button_settings_title">Options</string>
+
+</resources>
